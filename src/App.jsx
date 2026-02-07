@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import HeroSection from './sections/HeroSection'
 
 function App() {
   return (
-    <div className='text-red-3'>
-      App
-    </div>
+    <main>
+      <Navbar />
+      <HeroSection />
+    </main>
   )
 }
 
