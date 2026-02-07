@@ -1,6 +1,10 @@
-import React from 'react'
 import Navbar from './components/Navbar'
-import HeroSection from './sections/HeroSection'
+import HeroSection from "./sections/HeroSection";
+import { ScrollSmoother, ScrollTrigger } from "gsap/all";
+import gsap from "gsap";
+
+
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 function App() {
   return (
