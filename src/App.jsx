@@ -1,4 +1,4 @@
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import HeroSection from "./sections/HeroSection";
 import { ScrollSmoother, ScrollTrigger } from "gsap/all";
 import gsap from "gsap";
@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <main>
-      <NavBar />
+      <Navbar />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <HeroSection />
