@@ -26,8 +26,8 @@ const FlavorTitle = () => {
       clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
       scrollTrigger: {
         trigger: ".flavor-section",
-        start: "top 10%",
-        end: 'buttom buttom',
+        start: "top 60%",
+        end: "top top",
         scrub: 0.5
       },
     });
