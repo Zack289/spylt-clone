@@ -43,7 +43,9 @@ const MessageSection = () => {
       delay: 1,
       scrollTrigger: {
         trigger: ".msg-text-scroll",
-        start: "top 60%",
+        start: "top 100%",
+        end: "30% center",
+        scrub: 1
       },
     });
     revealTl.to(".msg-text-scroll", {
